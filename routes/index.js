@@ -1,7 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var busboy = require('connect-busboy');
-var fs = require('fs');
 
 var files = {};
 
